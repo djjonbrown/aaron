@@ -13,9 +13,9 @@
 				<br />
 				Local
 				<br />
-				PGHese
+				PGHese,
 				<br />
-				n@
+				'nat
 			</div>
 		</div>
 		<div class="col-xs-4 slogan">
@@ -30,7 +30,19 @@
 <hr />
   <br class="clear" />
 
-<%= yield %>
+<div class="container">
+	<%= yield %>
+</div>
+
+<div class="footer">
+	<div class="container">
+		<div class="col-xs-6">
+			<%= link_to "See another", "#", :class => 'next-quote' %>
+		</div>
+		<div class="col-xs-6 footer-blurb">Proudly built in Pittsburgh's East End
+		</div>
+	</div>
+</div>
 
 </body>
 </html>
